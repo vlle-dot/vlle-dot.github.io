@@ -14,7 +14,12 @@ ul {
     list-style-type: none;
 }
 
-.link {
+img {
+    width: 990px;
+    height: 430px;
+}
+
+.link{
     color: #fff;
     text-decoration:none;
 
@@ -30,7 +35,7 @@ ul {
     left: 10%;
 }
 
-.container { /*all box0, box1 and so on are "inside" this contianer*/
+.container {
     position: relative;
     display: block;
     margin-left: auto;
@@ -48,8 +53,7 @@ ul {
     width: 990px;
     height: 20px;
     color: #fff;
-    background: #000
-    
+    background: #000;
 }
 
 .box1 {
@@ -79,7 +83,7 @@ ul {
     width: 990px;
     height: 145px;
     color: #0000ff;
-    background: #00ff00;
+    background: #00ffff;
     font-size: 24px;
 }
 
@@ -134,7 +138,7 @@ ul {
 
 #box3One {
     position: relative;
-    top: 70px;
+    bottom: 399px;
     left: 5px;
     line-height: 130%;
     font-size: 100%;
@@ -154,7 +158,7 @@ ul {
     display: inline-table;
     position: relative;
     top: 27px;
-    left: 75px;
+    left: 130px;
     transform: scale(1.05, 1.18);
     line-height: 110%;
 }
@@ -188,15 +192,13 @@ ul {
 
 #bottomText {
     position: absolute;
-    line-height: 130%;
-    font-size: 105%;
     transform: scaleY(1.45);
-    font-size: 24px;
+    line-height: 130%;  
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 1.5rem;
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
 
     .alert {
         position: fixed;
@@ -210,14 +212,9 @@ ul {
         z-index: 999;
         opacity: 1;
     }
-
-    * {
-        overflow-y: hidden; 
-    }
-
 }
 
-@media screen and (min-width: 901px) {
+@media (min-width: 901px) {
 
     .alert {
         visibility: hidden;
