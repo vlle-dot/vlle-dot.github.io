@@ -27,7 +27,7 @@ ul {
 .centered {
     display: inline;
     position: relative;
-    left: 10%;
+    left: 9%;
 }
 
 .container { /*all box0, box1 and so on are "inside" this contianer*/
